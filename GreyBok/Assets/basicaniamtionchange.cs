@@ -5,6 +5,7 @@ using UnityEngine;
 public class basicaniamtionchange : MonoBehaviour
 {
     public Animator minibot;
+    public Animator MedBot;
 	// Use this for initialization
 	void Start ()
     {
@@ -13,8 +14,9 @@ public class basicaniamtionchange : MonoBehaviour
 	
     IEnumerator Minibot()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         minibot.SetBool("Attacking", true);
+        MedBot.SetBool("MediumAttacking", true);
     }
 
 }
