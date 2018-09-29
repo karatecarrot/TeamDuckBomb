@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 195952765816890302}
   - component: {fileID: 114223384817368520}
   m_Layer: 0
-  m_Name: Medium bot
+  m_Name: Medium bot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,6 +563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4888583579456598}
   - component: {fileID: 65146135266387994}
+  - component: {fileID: 136036688411529724}
   m_Layer: 0
   m_Name: mixamorig:Hips
   m_TagString: Untagged
@@ -1332,6 +1333,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: 0
   chaseRadius: 0
+--- !u!136 &136036688411529724
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1846138151368184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.6628056
+  m_Height: 4.308739
+  m_Direction: 1
+  m_Center: {x: -0.030306747, y: 2.891838, z: -0.0767967}
 --- !u!137 &137023449230971276
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
