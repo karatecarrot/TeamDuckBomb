@@ -21,6 +21,7 @@ public class PlayerActor : MonoBehaviour
     {
         WEAPON_HITSCAN,
         WEAPON_SINGLESHOT,
+        WEAPON_SHOTGUN,
     }
 
     public WeaponType weapon_type;
@@ -59,6 +60,11 @@ public class PlayerActor : MonoBehaviour
         if (weapon_type == WeaponType.WEAPON_HITSCAN)
         {
             weapon_type = WeaponType.WEAPON_SINGLESHOT;
+        }
+
+        else if (weapon_type == WeaponType.WEAPON_SINGLESHOT)
+        {
+            weapon_type = WeaponType.WEAPON_SHOTGUN;
         }
 
         else
@@ -103,6 +109,23 @@ public class PlayerActor : MonoBehaviour
         projectile_component.direction = PlatformGetPlayerFireDirection();
     }
 
+    void FireShotGun()
+    {
+        for (int i = 0; i < 100; i++)
+        {
+            GameObject projectile = (GameObject)Instantiate(projectile_prefab);
+
+            projectile.transform.position = transform.position;
+
+            ProjectileActor projectile_component = projectile.GetComponent<ProjectileActor>();
+
+            projectile_component.owner = this;
+
+            projectile_component.direction = PlatformGetPlayerFireDirection();
+        }
+    }
+
+
     // Use this for initialization
     void Start()
     {
@@ -133,6 +156,9 @@ public class PlayerActor : MonoBehaviour
                     break;
                 case WeaponType.WEAPON_SINGLESHOT:
                     FireSingleShot();
+                    break;
+                case WeaponType.WEAPON_SHOTGUN:
+                    FireShotGun();
                     break;
                 default:
                     break;

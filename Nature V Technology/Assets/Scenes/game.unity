@@ -1014,7 +1014,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1612570910}
   serializedVersion: 5
   lengthInSec: 1
-  simulationSpeed: 20
+  simulationSpeed: 3
   stopAction: 0
   looping: 0
   prewarm: 0
@@ -1462,7 +1462,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -1509,7 +1509,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 6
+    type: 4
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1626,7 +1626,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1000
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
