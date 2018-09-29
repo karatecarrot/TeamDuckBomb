@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 36c5e1b33722b9f46af7fdd5a1e66f38
+guid: a8ad5a570860bcc42a7f1a997b3a5df6
+timeCreated: 1538251382
+licenseType: Pro
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -12,42 +14,34 @@ ModelImporter:
     100012: mixamorig:LeftFoot
     100014: mixamorig:LeftForeArm
     100016: mixamorig:LeftHand
-    100018: mixamorig:LeftHandIndex1
-    100020: mixamorig:LeftHandIndex2
-    100022: mixamorig:LeftHandIndex3
-    100024: mixamorig:LeftHandIndex4
-    100026: mixamorig:LeftLeg
-    100028: mixamorig:LeftShoulder
-    100030: mixamorig:LeftToe_End
-    100032: mixamorig:LeftToeBase
-    100034: mixamorig:LeftUpLeg
-    100036: mixamorig:Neck
-    100038: mixamorig:RightArm
-    100040: mixamorig:RightFoot
-    100042: mixamorig:RightForeArm
-    100044: mixamorig:RightHand
-    100046: mixamorig:RightHandIndex1
-    100048: mixamorig:RightHandIndex2
-    100050: mixamorig:RightHandIndex3
-    100052: mixamorig:RightHandIndex4
-    100054: mixamorig:RightLeg
-    100056: mixamorig:RightShoulder
-    100058: mixamorig:RightToe_End
-    100060: mixamorig:RightToeBase
-    100062: mixamorig:RightUpLeg
-    100064: mixamorig:Spine
-    100066: mixamorig:Spine1
-    100068: mixamorig:Spine2
-    100070: pCube1
-    100072: pCube5
-    100074: pCube7
-    100076: pCube8
-    100078: pCylinder10
-    100080: pCylinder6
-    100082: pCylinder7
-    100084: pCylinder9
-    100086: polySurface2
-    100088: polySurface5
+    100018: mixamorig:LeftLeg
+    100020: mixamorig:LeftShoulder
+    100022: mixamorig:LeftToe_End
+    100024: mixamorig:LeftToeBase
+    100026: mixamorig:LeftUpLeg
+    100028: mixamorig:Neck
+    100030: mixamorig:RightArm
+    100032: mixamorig:RightFoot
+    100034: mixamorig:RightForeArm
+    100036: mixamorig:RightHand
+    100038: mixamorig:RightLeg
+    100040: mixamorig:RightShoulder
+    100042: mixamorig:RightToe_End
+    100044: mixamorig:RightToeBase
+    100046: mixamorig:RightUpLeg
+    100048: mixamorig:Spine
+    100050: mixamorig:Spine1
+    100052: mixamorig:Spine2
+    100054: pCube1
+    100056: pCube5
+    100058: pCube7
+    100060: pCube8
+    100062: pCylinder10
+    100064: pCylinder6
+    100066: pCylinder7
+    100068: pCylinder9
+    100070: polySurface2
+    100072: polySurface5
     400000: //RootNode
     400002: default
     400004: mixamorig:Head
@@ -57,42 +51,34 @@ ModelImporter:
     400012: mixamorig:LeftFoot
     400014: mixamorig:LeftForeArm
     400016: mixamorig:LeftHand
-    400018: mixamorig:LeftHandIndex1
-    400020: mixamorig:LeftHandIndex2
-    400022: mixamorig:LeftHandIndex3
-    400024: mixamorig:LeftHandIndex4
-    400026: mixamorig:LeftLeg
-    400028: mixamorig:LeftShoulder
-    400030: mixamorig:LeftToe_End
-    400032: mixamorig:LeftToeBase
-    400034: mixamorig:LeftUpLeg
-    400036: mixamorig:Neck
-    400038: mixamorig:RightArm
-    400040: mixamorig:RightFoot
-    400042: mixamorig:RightForeArm
-    400044: mixamorig:RightHand
-    400046: mixamorig:RightHandIndex1
-    400048: mixamorig:RightHandIndex2
-    400050: mixamorig:RightHandIndex3
-    400052: mixamorig:RightHandIndex4
-    400054: mixamorig:RightLeg
-    400056: mixamorig:RightShoulder
-    400058: mixamorig:RightToe_End
-    400060: mixamorig:RightToeBase
-    400062: mixamorig:RightUpLeg
-    400064: mixamorig:Spine
-    400066: mixamorig:Spine1
-    400068: mixamorig:Spine2
-    400070: pCube1
-    400072: pCube5
-    400074: pCube7
-    400076: pCube8
-    400078: pCylinder10
-    400080: pCylinder6
-    400082: pCylinder7
-    400084: pCylinder9
-    400086: polySurface2
-    400088: polySurface5
+    400018: mixamorig:LeftLeg
+    400020: mixamorig:LeftShoulder
+    400022: mixamorig:LeftToe_End
+    400024: mixamorig:LeftToeBase
+    400026: mixamorig:LeftUpLeg
+    400028: mixamorig:Neck
+    400030: mixamorig:RightArm
+    400032: mixamorig:RightFoot
+    400034: mixamorig:RightForeArm
+    400036: mixamorig:RightHand
+    400038: mixamorig:RightLeg
+    400040: mixamorig:RightShoulder
+    400042: mixamorig:RightToe_End
+    400044: mixamorig:RightToeBase
+    400046: mixamorig:RightUpLeg
+    400048: mixamorig:Spine
+    400050: mixamorig:Spine1
+    400052: mixamorig:Spine2
+    400054: pCube1
+    400056: pCube5
+    400058: pCube7
+    400060: pCube8
+    400062: pCylinder10
+    400064: pCylinder6
+    400066: pCylinder7
+    400068: pCylinder9
+    400070: polySurface2
+    400072: polySurface5
     2100000: pasted__blinn4SGmat
     2100002: pasted__blinn2SGmat
     2100004: blinn2SGmat
