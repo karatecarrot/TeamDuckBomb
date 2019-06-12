@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: f99c51d16cd369748a77d2d6a1e879b7
-timeCreated: 1538195341
-licenseType: Pro
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: default
     100002: group1
@@ -133,7 +131,53 @@ ModelImporter:
     13700024: pSphere3
     13700026: pSphere4
     13700028: pSphere5
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SGmat
+    second: {fileID: 2100000, guid: 2513e6698c767864ca3a908d22a36bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn2SG1mat
+    second: {fileID: 2100000, guid: f776329a1df52784ca976fb5059acc05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn2SG2mat
+    second: {fileID: 2100000, guid: 6564177b162be6643bb8c99e23ca0498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn2SGmat
+    second: {fileID: 2100000, guid: 9650a3c174e8b274ea823b86368cda29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn4SG1mat
+    second: {fileID: 2100000, guid: fd4168ef51aff6341ab9d259fad2be3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn4SG2mat
+    second: {fileID: 2100000, guid: 216e6be5592a0854f9a741e79ab9cfd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn4SGmat
+    second: {fileID: 2100000, guid: c3abc40136d34d042a1f7c4782955b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn5SGmat
+    second: {fileID: 2100000, guid: 2d0971a5918c9c544b616716dfd0c87e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn6SGmat
+    second: {fileID: 2100000, guid: f20aceb3c9faf16459abdde200eb7b72, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -152,6 +196,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -194,6 +239,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -211,11 +257,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -230,7 +281,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
